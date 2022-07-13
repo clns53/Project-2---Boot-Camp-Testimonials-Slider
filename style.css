@@ -1,0 +1,17 @@
+li{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 100;
+    line-height: 44px;
+    width: 1200px;
+    height: 400px;
+    background-image: url(/images/pattern-quotes.svg), url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 400px;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    scroll-behavior: smooth;
+}
