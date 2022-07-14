@@ -1,17 +1,93 @@
-li{
-    font-family: arial, helvetica, sans-serif;
-    font-size: 44px;
-    font-weight: 100;
-    line-height: 44px;
-    width: 1200px;
-    height: 400px;
-    background-image: url(/images/pattern-quotes.svg), url(/images/pattern-bg.svg);
-    background-repeat: no-repeat;
-    background-position: 400px;
-    display: inline-block;
+body{
+    Font-size: 32px;
+    font-family: [Inter](https://fonts.google.com/specimen/Inter);
+    font-Weight: 300, 500, 700;
+    /*overflow-x: auto;
+    overflow-y: hidden;*/
 }
 
-ul{
-    list-style: none;
-    scroll-behavior: smooth;
+a{
+    text-decoration: none;
+    color: black;
 }
+
+
+
+.quote-1{
+    line-height: 44px;
+    width: 1300px;
+    height: 690px;
+    background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
+    url(/images/image-tanya.jpg), url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, top 130px left 230px, top 60px right 100px, bottom 50px right 5%;
+    background-size: 40%, 10%, 540px 540px, 680px;
+    
+}
+
+.quote-2{
+    line-height: 44px;
+    width: 1300px;
+    height: 690px;
+    background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
+    url(/images/image-john.jpg), url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, top 130px left 230px, top 60px right 100px, bottom 50px right 5%;
+    background-size: 40%, 10%, 540px 540px, 680px;
+}
+
+.tanya{
+    width: 265px;
+    height: 38px;
+    font-size: 20px;
+}
+
+.john{
+    width: 405px;
+    height: 38px;
+    font-size: 20px;
+    
+}
+
+.button{
+    position: relative;
+    left: 720px;
+    top: 220px;
+    background-color: white;
+    width: 112px;
+    height: 56px;
+    border-radius: 40%;
+    letter-spacing: 60px;
+    padding: 10px;
+}
+
+img{
+    height: 25px;
+    width: 20px;
+}
+
+/*.pictanya{
+    position: absolute;
+    left: 650px;
+    top: 70px;
+    width: 540px;
+    height: 540px;
+    background-color: lightgray;
+}
+
+.picjohn{
+    position: absolute;
+    left: 650px;
+    top: 760px;
+    width: 540px;
+    height: 540px;
+    
+}*/
+
+.article{
+    position: relative;
+    top: 180px;
+    left: 120px;
+    width: 635px;
+    height: 354px;
+    }
