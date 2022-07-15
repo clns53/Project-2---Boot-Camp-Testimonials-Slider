@@ -6,17 +6,12 @@ body{
     overflow-y: hidden;*/
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-
-
-.quote-1{
+.slide{
     line-height: 44px;
     width: 1300px;
     height: 690px;
+}
+#slide-1{
     background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
     url(/images/image-tanya.jpg), url(/images/pattern-bg.svg);
     background-repeat: no-repeat;
@@ -25,10 +20,10 @@ a{
     
 }
 
-.quote-2{
-    line-height: 44px;
+#slide-2{
+    /*line-height: 44px;
     width: 1300px;
-    height: 690px;
+    height: 690px;*/
     background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
     url(/images/image-john.jpg), url(/images/pattern-bg.svg);
     background-repeat: no-repeat;
@@ -36,17 +31,10 @@ a{
     background-size: 40%, 10%, 540px 540px, 680px;
 }
 
-.tanya{
+p{
     width: 265px;
     height: 38px;
-    font-size: 20px;
-}
-
-.john{
-    width: 405px;
-    height: 38px;
-    font-size: 20px;
-    
+    font-size: 15px;
 }
 
 .button{
@@ -56,7 +44,7 @@ a{
     background-color: white;
     width: 112px;
     height: 56px;
-    border-radius: 40%;
+    border-radius: 35%;
     letter-spacing: 60px;
     padding: 10px;
 }
@@ -74,16 +62,16 @@ img{
     height: 540px;
     background-color: lightgray;
 }
-
-.picjohn{
-    position: absolute;
+*/
+/*.picjohn{
+    position: relative;
     left: 650px;
-    top: 760px;
+    bottom: 760px;
     width: 540px;
     height: 540px;
     
-}*/
-
+}
+*/
 .article{
     position: relative;
     top: 180px;
