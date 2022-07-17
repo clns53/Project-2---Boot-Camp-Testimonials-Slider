@@ -47,6 +47,7 @@ p{
     border-radius: 35%;
     letter-spacing: 60px;
     padding: 10px;
+    box-shadow: 10px 10px 10px lightgrey;
 }
 
 img{
@@ -54,24 +55,7 @@ img{
     width: 20px;
 }
 
-/*.pictanya{
-    position: absolute;
-    left: 650px;
-    top: 70px;
-    width: 540px;
-    height: 540px;
-    background-color: lightgray;
-}
-*/
-/*.picjohn{
-    position: relative;
-    left: 650px;
-    bottom: 760px;
-    width: 540px;
-    height: 540px;
-    
-}
-*/
+
 .article{
     position: relative;
     top: 180px;
@@ -80,7 +64,55 @@ img{
     height: 354px;
     }
 
-    /*.quote-container{
-    overflow-x: auto;
-    overflow-y: hidden;
-    }*/
+@media screen and (max-width: 600px){
+        
+    .theslides{
+        position: relative;
+        width: 375px;
+        height: 667px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    #slide-1{
+       background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
+       url(/images/image-tanya.jpg), url(/images/pattern-bg.svg);
+       background-repeat: no-repeat;
+       background-position: top 594.95px left, top 364px left 158px, top 54px left 61px, top 24px left 24px;
+       background-size: 200px 65px, 60px 50px, 254px 253px, 326.5px 315px;
+        
+     }
+
+    #slide-2{
+        background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
+        url(/images/image-john.jpg), url(/images/pattern-bg.svg);
+        background-repeat: no-repeat;
+        background-position: top 594.95px left, top 364px left 158px, top 54px left 61px, top 24px left 24px;
+        background-size: 200px 65px, 60px 50px, 254px 253px, 326.5px 315px;
+        
+     }
+
+     .article{
+        position: absolute;
+        width: 300px;
+        height: 228px;
+        left: 40px;
+        top: 364px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+     }
+
+     .buttons{
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        left: 148px;
+        top: 287px;
+        letter-spacing: 30px;
+     }
+
+ }
