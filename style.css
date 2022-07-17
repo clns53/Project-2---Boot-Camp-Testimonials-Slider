@@ -14,8 +14,8 @@ body{
     overflow-y: hidden;
 }
 #slide-1{
-    background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
-    url(/images/image-tanya.jpg), url(/images/pattern-bg.svg);
+    background-image: url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg), 
+    url(./images/image-tanya.jpg), url(./images/pattern-bg.svg);
     background-repeat: no-repeat;
     background-position: bottom left, top 130px left 230px, top 60px right 100px, bottom 50px right 5%;
     background-size: 40%, 10%, 540px 540px, 680px;
@@ -26,8 +26,8 @@ body{
     /*line-height: 44px;
     width: 1300px;
     height: 690px;*/
-    background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
-    url(/images/image-john.jpg), url(/images/pattern-bg.svg);
+    background-image: url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg), 
+    url(./images/image-john.jpg), url(./images/pattern-bg.svg);
     background-repeat: no-repeat;
     background-position: bottom left, top 130px left 230px, top 60px right 100px, bottom 50px right 5%;
     background-size: 40%, 10%, 540px 540px, 680px;
@@ -77,8 +77,8 @@ img{
     }
 
     #slide-1{
-       background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
-       url(/images/image-tanya.jpg), url(/images/pattern-bg.svg);
+       background-image: url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg), 
+       url(./images/image-tanya.jpg), url(./images/pattern-bg.svg);
        background-repeat: no-repeat;
        background-position: top 594.95px left, top 364px left 158px, top 54px left 61px, top 24px left 24px;
        background-size: 200px 65px, 60px 50px, 254px 253px, 326.5px 315px;
@@ -86,8 +86,8 @@ img{
      }
 
     #slide-2{
-        background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
-        url(/images/image-john.jpg), url(/images/pattern-bg.svg);
+        background-image: url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg), 
+        url(./images/image-john.jpg), url(./images/pattern-bg.svg);
         background-repeat: no-repeat;
         background-position: top 594.95px left, top 364px left 158px, top 54px left 61px, top 24px left 24px;
         background-size: 200px 65px, 60px 50px, 254px 253px, 326.5px 315px;
