@@ -2,14 +2,16 @@ body{
     Font-size: 32px;
     font-family: [Inter](https://fonts.google.com/specimen/Inter);
     font-Weight: 300, 500, 700;
-    overflow-x: auto;
-    overflow-y: hidden;
+    /*overflow-x: auto;
+    overflow-y: hidden;*/
 }
 
 .theslides{
     line-height: 44px;
     width: 1300px;
     height: 690px;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 #slide-1{
     background-image: url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg), 
@@ -46,7 +48,7 @@ p{
     height: 30px;
     border-radius: 35%;
     letter-spacing: 60px;
-    padding: 10px;
+    padding: 6px 6px 10px;
     box-shadow: 10px 10px 10px lightgrey;
 }
 
@@ -70,8 +72,8 @@ img{
         position: relative;
         width: 375px;
         height: 667px;
-        overflow-x: auto;
-        overflow-y: hidden;
+        /*overflow-x: auto;
+        overflow-y: hidden;*/
     }
 
     #slide-1{
