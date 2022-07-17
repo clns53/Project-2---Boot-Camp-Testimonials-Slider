@@ -2,11 +2,11 @@ body{
     Font-size: 32px;
     font-family: [Inter](https://fonts.google.com/specimen/Inter);
     font-Weight: 300, 500, 700;
-    /*overflow-x: auto;
-    overflow-y: hidden;*/
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
-.slide{
+.theslides{
     line-height: 44px;
     width: 1300px;
     height: 690px;
@@ -37,13 +37,13 @@ p{
     font-size: 15px;
 }
 
-.button{
-    position: relative;
+.buttons{
+    position: absolute;
     left: 720px;
-    top: 220px;
+    top: 580px;
     background-color: white;
     width: 112px;
-    height: 56px;
+    height: 30px;
     border-radius: 35%;
     letter-spacing: 60px;
     padding: 10px;
@@ -79,3 +79,8 @@ img{
     width: 635px;
     height: 354px;
     }
+
+    /*.quote-container{
+    overflow-x: auto;
+    overflow-y: hidden;
+    }*/
