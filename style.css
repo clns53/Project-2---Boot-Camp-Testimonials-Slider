@@ -2,8 +2,8 @@ body{
     Font-size: 32px;
     font-family: [Inter](https://fonts.google.com/specimen/Inter);
     font-Weight: 300, 500, 700;
-    /*overflow-x: auto;
-    overflow-y: hidden;*/
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .theslides{
