@@ -36,7 +36,7 @@ body{
 p{
     width: 265px;
     height: 38px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .buttons{
@@ -45,10 +45,10 @@ p{
     top: 580px;
     background-color: white;
     width: 112px;
-    height: 30px;
+    height: 36px;
     border-radius: 35%;
     letter-spacing: 60px;
-    padding: 6px 6px 10px;
+    padding: 20px 10px 20px;
     box-shadow: 10px 10px 10px lightgrey;
 }
 
@@ -64,6 +64,10 @@ img{
     left: 120px;
     width: 635px;
     height: 354px;
+    }
+
+    span{
+        color: grey;
     }
 
 @media screen and (max-width: 600px){
